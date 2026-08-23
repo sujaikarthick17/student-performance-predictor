@@ -12,4 +12,4 @@ python -m venv .venv
 .\.venv\Scripts\streamlit.exe run app.py
 ```
 
-If the result column in the CSV is not named `pass_fail`, update `TARGET_COLUMN` in `src/config.py`.
+
