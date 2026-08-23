@@ -1,0 +1,34 @@
+{
+  "target_column": "result",
+  "feature_columns": [
+    "study_hours",
+    "attendance",
+    "previous_marks",
+    "assignment_completion",
+    "sleep_hours",
+    "internal_marks"
+  ],
+  "numeric_features": [
+    "study_hours",
+    "attendance",
+    "previous_marks",
+    "assignment_completion",
+    "sleep_hours",
+    "internal_marks"
+  ],
+  "categorical_features": [],
+  "categorical_options": {},
+  "numeric_defaults": {
+    "study_hours": 5.2,
+    "attendance": 77.9,
+    "previous_marks": 65.15,
+    "assignment_completion": 75.1,
+    "sleep_hours": 6.8,
+    "internal_marks": 58.7
+  },
+  "classes": [
+    "Fail",
+    "Pass"
+  ],
+  "test_accuracy": 0.8
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+models/*.joblib
+reports/*.png
+reports/*.json
+!models/.gitkeep
+!reports/.gitkeep
